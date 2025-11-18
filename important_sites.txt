@@ -1,0 +1,11 @@
+#for everything html
+https://www.htmldog.com/
+
+#Flask for python download
+https://flask.palletsprojects.com/en/stable/quickstart/
+
+#For drawing website wireframes
+https://excalidraw.com/
+
+#For free pictures
+https://unsplash.com/
