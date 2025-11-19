@@ -9,3 +9,6 @@ https://excalidraw.com/
 
 #For free pictures
 https://unsplash.com/
+
+#render.com (documentation to deploy Flask application)
+https://render.com/docs/deploy-flask
