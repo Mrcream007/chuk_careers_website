@@ -12,3 +12,9 @@ https://unsplash.com/
 
 #render.com (documentation to deploy Flask application)
 https://render.com/docs/deploy-flask
+
+#get a domain name for your website
+https://domains.squarespace.com/domain-search
+
+#important Python webdev vid tutorial
+https://www.youtube.com/watch?v=yBDHkveJUf4&t=4622s
