@@ -1,0 +1,16 @@
+<div class="border rounded p-3 mb-3 d-flex row">
+    
+    <div class="col-9">
+        <h4>{{ job.title }}</h4>
+        <p><strong>Location:</strong> {{ job.location }}</p>
+
+        {% if job.salary %}
+        <p><strong>Salary:</strong> {{ job.salary }}</p>
+        {% endif %}
+    </div>
+
+    <div class="col-3 d-flex align-items-center justify-content-end">
+        <button type="button" class="btn btn-success">Apply</button>
+    </div>
+
+</div>

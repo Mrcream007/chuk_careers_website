@@ -37,11 +37,9 @@
         <h2 class="text-center mt-2 mb-4">Open Positions</h2>
         <div>
             {% for job in jobs %}
-            <div class="border rounded p-3 mb-3">
-                <h4>{{ job['title'] }}</h4>
-                <p><strong>Location:</strong> {{ job.location }}</p>
-                <p><strong>Salary:</strong> {{ job.salary }}</p>
-            </div>
+
+            {% include 'jobitem.html' %}
+            
             {% endfor %}
         </div>
 

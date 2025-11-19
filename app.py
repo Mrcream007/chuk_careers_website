@@ -1,4 +1,4 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, jsonify
 
 app = Flask(__name__)
 
@@ -13,7 +13,7 @@ JOBS = [
         'id': 2,
         'title': 'Software Developer',
         'location': 'Aberdeen, Scotland',
-        'salary': '£37,600'
+        
     },
     {
         'id': 3,
@@ -27,6 +27,10 @@ JOBS = [
 def hello_world():
     #return "Hello Chuka!"
     return render_template('home.html', jobs=JOBS, company_name='mrcream007')
+
+@app.route("/api/jobs")
+def list_jobs():
+    return jsonify(JOBS)
 
 #this is to open/establish a local server with if statement 
 if __name__ == "__main__":
